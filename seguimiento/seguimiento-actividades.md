@@ -10,25 +10,25 @@ Este documento tiene como finalidad registrar el avance de las actividades corre
 
 ## Seguimiento general
 
-| #  | Actividad                                                       | Fecha de inicio | Fecha de término | Responsable       | Estado       |
-| -- | --------------------------------------------------------------- | --------------- | ----------------- | ----------------- | ------------ |
-| 1  | Revisar el documento de requisitos y las funciones principales  | 20 sep. 2026    | 22 sep. 2026      | Ana Laura y Edson | ✅ Terminada |
-| 2  | Definir el alcance y organizar el plan de trabajo               | 23 sep. 2026    | 26 sep. 2026      | Ana Laura y Edson | ✅ Terminada |
-| 3  | Diseñar la estructura general del archivo de Excel             | 27 sep. 2026    | 3 oct. 2026       | Ana Laura         | ✅ Terminada |
-| 4  | Crear el catálogo de categorías financieras                   | 27 sep. 2026    | 2 oct. 2026       | Edson             | ✅ Terminada |
-| 5  | Desarrollar el registro de ingresos y gastos                    | 4 oct. 2026     | 10 oct. 2026      | Ana Laura y Edson | ⬜ Pendiente |
-| 6  | Desarrollar la sección de presupuestos                         | 11 oct. 2026    | 17 oct. 2026      | Ana Laura         | ⬜ Pendiente |
-| 7  | Desarrollar la sección de obligaciones y pagos                 | 11 oct. 2026    | 17 oct. 2026      | Edson             | ⬜ Pendiente |
-| 8  | Capturar datos de prueba y revisar la estructura                | 18 oct. 2026    | 21 oct. 2026      | Ana Laura y Edson | ⬜ Pendiente |
-| 9  | Configurar importación, validación y limpieza con Power Query | 22 oct. 2026    | 28 oct. 2026      | Edson             | ⬜ Pendiente |
-| 10 | Crear el modelo de datos y relaciones en Power BI               | 29 oct. 2026    | 4 nov. 2026       | Ana Laura         | ⬜ Pendiente |
-| 11 | Crear indicadores, gráficas y dashboard en Power BI            | 5 nov. 2026     | 11 nov. 2026      | Ana Laura         | ⬜ Pendiente |
-| 12 | Desarrollar análisis complementario con Python/Pandas          | 5 nov. 2026     | 11 nov. 2026      | Edson             | ⬜ Pendiente |
-| 13 | Integrar los componentes desarrollados                          | 12 nov. 2026    | 14 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente |
-| 14 | Realizar pruebas funcionales                                    | 15 nov. 2026    | 18 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente |
-| 15 | Elaborar manual y recopilar evidencias                          | 15 nov. 2026    | 21 nov. 2026      | Ana Laura         | ⬜ Pendiente |
-| 16 | Corregir errores encontrados durante las pruebas                | 19 nov. 2026    | 21 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente |
-| 17 | Realizar revisión final, respaldo y preparación de la entrega | 22 nov. 2026    | 23 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente |
+| #  | Actividad                                                       | Fecha de inicio | Fecha de término | Responsable       | Estado        |
+| -- | --------------------------------------------------------------- | --------------- | ----------------- | ----------------- | ------------- |
+| 1  | Revisar el documento de requisitos y las funciones principales  | 20 sep. 2026    | 22 sep. 2026      | Ana Laura y Edson | ✅ Terminada  |
+| 2  | Definir el alcance y organizar el plan de trabajo               | 23 sep. 2026    | 26 sep. 2026      | Ana Laura y Edson | ✅ Terminada  |
+| 3  | Diseñar la estructura general del archivo de Excel             | 27 sep. 2026    | 3 oct. 2026       | Ana Laura         | ✅ Terminada  |
+| 4  | Crear el catálogo de categorías financieras                   | 27 sep. 2026    | 2 oct. 2026       | Edson             | ✅ Terminada  |
+| 5  | Desarrollar el registro de ingresos y gastos                    | 4 oct. 2026     | 10 oct. 2026      | Ana Laura y Edson | ✅ Terminada  |
+| 6  | Desarrollar la sección de presupuestos                         | 11 oct. 2026    | 17 oct. 2026      | Ana Laura         | ⬜ Pendiente  |
+| 7  | Desarrollar la sección de obligaciones y pagos                 | 11 oct. 2026    | 17 oct. 2026      | Edson             | ⬜ Pendiente  |
+| 8  | Capturar datos de prueba y revisar la estructura                | 18 oct. 2026    | 21 oct. 2026      | Ana Laura y Edson | ⬜ Pendiente  |
+| 9  | Configurar importación, validación y limpieza con Power Query | 22 oct. 2026    | 28 oct. 2026      | Edson             | ⬜ Pendiente  |
+| 10 | Crear el modelo de datos y relaciones en Power BI               | 29 oct. 2026    | 4 nov. 2026       | Ana Laura         | ⬜ Pendiente  |
+| 11 | Crear indicadores, gráficas y dashboard en Power BI            | 5 nov. 2026     | 11 nov. 2026      | Ana Laura         | ⬜ Pendiente  |
+| 12 | Desarrollar análisis complementario con Python/Pandas          | 5 nov. 2026     | 11 nov. 2026      | Edson             | ⬜ Pendiente  |
+| 13 | Integrar los componentes desarrollados                          | 12 nov. 2026    | 14 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente  |
+| 14 | Realizar pruebas funcionales                                    | 15 nov. 2026    | 18 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente  |
+| 15 | Elaborar manual y recopilar evidencias                          | 15 nov. 2026    | 21 nov. 2026      | Ana Laura         | ⬜ Pendiente  |
+| 16 | Corregir errores encontrados durante las pruebas                | 19 nov. 2026    | 21 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente  |
+| 17 | Realizar revisión final, respaldo y preparación de la entrega | 22 nov. 2026    | 23 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente  |
 
 ## Registro de avances
 
@@ -72,8 +72,8 @@ Como resultado de esta actividad se obtuvo la estructura base del archivo `Siste
 
 ### Actividad 4. Creación del catálogo de categorías financieras
 
-**Estado:** ✅ Terminada  
-**Periodo:** 27 de septiembre al 2 de octubre de 2026  
+**Estado:** ✅ Terminada
+**Periodo:** 27 de septiembre al 2 de octubre de 2026
 **Responsable:** Edson
 
 Se creó el catálogo de categorías financieras dentro del archivo principal del Sistema de Finanzas Personales. Se definieron categorías para ingresos y gastos, asignando a cada una un identificador único, nombre, tipo, descripción y estado.
@@ -81,3 +81,19 @@ Se creó el catálogo de categorías financieras dentro del archivo principal de
 El catálogo incluye categorías de ingreso como sueldo, ingresos extra y ventas, así como categorías de gasto relacionadas con alimentación, transporte, vivienda, servicios, educación, salud, entretenimiento, compras personales, suscripciones, deudas y ahorro, entre otras.
 
 Como resultado de esta actividad, la hoja `Categorías` quedó preparada para ser utilizada posteriormente en el registro y clasificación de los movimientos financieros del sistema.
+
+---
+
+### Actividad 5. Desarrollo del registro de ingresos y gastos
+
+**Estado:** ✅ Terminada
+**Periodo programado:** 4 al 10 de octubre de 2026
+**Responsables:** Ana Laura y Edson
+
+Se desarrolló el registro de ingresos y gastos dentro de la hoja Movimientos del archivo principal del Sistema de Finanzas Personales.
+
+Se configuraron listas desplegables para seleccionar el tipo de movimiento, la categoría y el método de pago. También se establecieron validaciones para las fechas y los montos, así como el formato de moneda y la estructura de los identificadores.
+
+Para comprobar su funcionamiento, se capturaron cinco movimientos ficticios correspondientes a ingresos y gastos. Se verificó que los datos pudieran registrarse correctamente y que los filtros permitieran consultar los movimientos según su tipo.
+
+Como resultado, el módulo de registro de ingresos y gastos quedó preparado para utilizarse en las siguientes actividades del proyecto.

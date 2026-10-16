@@ -10,25 +10,25 @@ Este documento tiene como finalidad registrar el avance de las actividades corre
 
 ## Seguimiento general
 
-| #  | Actividad                                                       | Fecha de inicio | Fecha de término | Responsable       | Estado        |
-| -- | --------------------------------------------------------------- | --------------- | ----------------- | ----------------- | ------------- |
-| 1  | Revisar el documento de requisitos y las funciones principales  | 20 sep. 2026    | 22 sep. 2026      | Ana Laura y Edson | ✅ Terminada  |
-| 2  | Definir el alcance y organizar el plan de trabajo               | 23 sep. 2026    | 26 sep. 2026      | Ana Laura y Edson | ✅ Terminada  |
-| 3  | Diseñar la estructura general del archivo de Excel             | 27 sep. 2026    | 3 oct. 2026       | Ana Laura         | ✅ Terminada  |
-| 4  | Crear el catálogo de categorías financieras                   | 27 sep. 2026    | 2 oct. 2026       | Edson             | ✅ Terminada  |
-| 5  | Desarrollar el registro de ingresos y gastos                    | 4 oct. 2026     | 10 oct. 2026      | Ana Laura y Edson | ✅ Terminada  |
-| 6  | Desarrollar la sección de presupuestos                         | 11 oct. 2026    | 17 oct. 2026      | Ana Laura         | ⬜ Pendiente  |
-| 7  | Desarrollar la sección de obligaciones y pagos                 | 11 oct. 2026    | 17 oct. 2026      | Edson             | ⬜ Pendiente  |
-| 8  | Capturar datos de prueba y revisar la estructura                | 18 oct. 2026    | 21 oct. 2026      | Ana Laura y Edson | ⬜ Pendiente  |
-| 9  | Configurar importación, validación y limpieza con Power Query | 22 oct. 2026    | 28 oct. 2026      | Edson             | ⬜ Pendiente  |
-| 10 | Crear el modelo de datos y relaciones en Power BI               | 29 oct. 2026    | 4 nov. 2026       | Ana Laura         | ⬜ Pendiente  |
-| 11 | Crear indicadores, gráficas y dashboard en Power BI            | 5 nov. 2026     | 11 nov. 2026      | Ana Laura         | ⬜ Pendiente  |
-| 12 | Desarrollar análisis complementario con Python/Pandas          | 5 nov. 2026     | 11 nov. 2026      | Edson             | ⬜ Pendiente  |
-| 13 | Integrar los componentes desarrollados                          | 12 nov. 2026    | 14 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente  |
-| 14 | Realizar pruebas funcionales                                    | 15 nov. 2026    | 18 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente  |
-| 15 | Elaborar manual y recopilar evidencias                          | 15 nov. 2026    | 21 nov. 2026      | Ana Laura         | ⬜ Pendiente  |
-| 16 | Corregir errores encontrados durante las pruebas                | 19 nov. 2026    | 21 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente  |
-| 17 | Realizar revisión final, respaldo y preparación de la entrega | 22 nov. 2026    | 23 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente  |
+| #  | Actividad                                                       | Fecha de inicio | Fecha de término | Responsable       | Estado       |
+| -- | --------------------------------------------------------------- | --------------- | ----------------- | ----------------- | ------------ |
+| 1  | Revisar el documento de requisitos y las funciones principales  | 20 sep. 2026    | 22 sep. 2026      | Ana Laura y Edson | ✅ Terminada |
+| 2  | Definir el alcance y organizar el plan de trabajo               | 23 sep. 2026    | 26 sep. 2026      | Ana Laura y Edson | ✅ Terminada |
+| 3  | Diseñar la estructura general del archivo de Excel             | 27 sep. 2026    | 3 oct. 2026       | Ana Laura         | ✅ Terminada |
+| 4  | Crear el catálogo de categorías financieras                   | 27 sep. 2026    | 2 oct. 2026       | Edson             | ✅ Terminada |
+| 5  | Desarrollar el registro de ingresos y gastos                    | 4 oct. 2026     | 10 oct. 2026      | Ana Laura y Edson | ✅ Terminada |
+| 6  | Desarrollar la sección de presupuestos                         | 11 oct. 2026    | 17 oct. 2026      | Ana Laura         | ✅ Terminada |
+| 7  | Desarrollar la sección de obligaciones y pagos                 | 11 oct. 2026    | 17 oct. 2026      | Edson             | ⬜ Pendiente |
+| 8  | Capturar datos de prueba y revisar la estructura                | 18 oct. 2026    | 21 oct. 2026      | Ana Laura y Edson | ⬜ Pendiente |
+| 9  | Configurar importación, validación y limpieza con Power Query | 22 oct. 2026    | 28 oct. 2026      | Edson             | ⬜ Pendiente |
+| 10 | Crear el modelo de datos y relaciones en Power BI               | 29 oct. 2026    | 4 nov. 2026       | Ana Laura         | ⬜ Pendiente |
+| 11 | Crear indicadores, gráficas y dashboard en Power BI            | 5 nov. 2026     | 11 nov. 2026      | Ana Laura         | ⬜ Pendiente |
+| 12 | Desarrollar análisis complementario con Python/Pandas          | 5 nov. 2026     | 11 nov. 2026      | Edson             | ⬜ Pendiente |
+| 13 | Integrar los componentes desarrollados                          | 12 nov. 2026    | 14 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente |
+| 14 | Realizar pruebas funcionales                                    | 15 nov. 2026    | 18 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente |
+| 15 | Elaborar manual y recopilar evidencias                          | 15 nov. 2026    | 21 nov. 2026      | Ana Laura         | ⬜ Pendiente |
+| 16 | Corregir errores encontrados durante las pruebas                | 19 nov. 2026    | 21 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente |
+| 17 | Realizar revisión final, respaldo y preparación de la entrega | 22 nov. 2026    | 23 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente |
 
 ## Registro de avances
 
@@ -97,3 +97,21 @@ Se configuraron listas desplegables para seleccionar el tipo de movimiento, la c
 Para comprobar su funcionamiento, se capturaron cinco movimientos ficticios correspondientes a ingresos y gastos. Se verificó que los datos pudieran registrarse correctamente y que los filtros permitieran consultar los movimientos según su tipo.
 
 Como resultado, el módulo de registro de ingresos y gastos quedó preparado para utilizarse en las siguientes actividades del proyecto.
+
+---
+
+### Actividad 6. Desarrollo del módulo de presupuestos
+
+**Estado:** ✅ Terminada
+**Periodo programado:** 11 al 17 de octubre de 2026
+**Responsable:** Ana Laura
+
+Se desarrolló el módulo de presupuestos dentro de la hoja Presupuestos del archivo principal del Sistema de Finanzas Personales.
+
+Se configuraron listas desplegables para seleccionar las categorías financieras y validaciones para evitar el registro de montos presupuestados incorrectos.
+
+También se implementaron fórmulas que permiten calcular automáticamente el monto gastado por categoría y periodo, utilizando la información registrada en la hoja Movimientos. A partir de estos datos, el sistema calcula el presupuesto disponible y determina su estado como Disponible, Agotado o Excedido.
+
+Para comprobar su funcionamiento, se registraron tres presupuestos ficticios correspondientes a octubre de 2026. Se realizaron pruebas modificando temporalmente los montos y periodos, verificando que los resultados se actualizaran correctamente.
+
+Como resultado, el módulo de presupuestos quedó funcional y preparado para integrarse con los demás componentes del sistema.

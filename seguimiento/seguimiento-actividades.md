@@ -18,7 +18,7 @@ Este documento tiene como finalidad registrar el avance de las actividades corre
 | 4  | Crear el catálogo de categorías financieras                   | 27 sep. 2026    | 2 oct. 2026       | Edson             | ✅ Terminada |
 | 5  | Desarrollar el registro de ingresos y gastos                    | 4 oct. 2026     | 10 oct. 2026      | Ana Laura y Edson | ✅ Terminada |
 | 6  | Desarrollar la sección de presupuestos                         | 11 oct. 2026    | 17 oct. 2026      | Ana Laura         | ✅ Terminada |
-| 7  | Desarrollar la sección de obligaciones y pagos                 | 11 oct. 2026    | 17 oct. 2026      | Edson             | ⬜ Pendiente |
+| 7  | Desarrollar la sección de obligaciones y pagos                 | 11 oct. 2026    | 17 oct. 2026      | Edson             | ✅ Terminada |
 | 8  | Capturar datos de prueba y revisar la estructura                | 18 oct. 2026    | 21 oct. 2026      | Ana Laura y Edson | ⬜ Pendiente |
 | 9  | Configurar importación, validación y limpieza con Power Query | 22 oct. 2026    | 28 oct. 2026      | Edson             | ⬜ Pendiente |
 | 10 | Crear el modelo de datos y relaciones en Power BI               | 29 oct. 2026    | 4 nov. 2026       | Ana Laura         | ⬜ Pendiente |
@@ -115,3 +115,23 @@ También se implementaron fórmulas que permiten calcular automáticamente el mo
 Para comprobar su funcionamiento, se registraron tres presupuestos ficticios correspondientes a octubre de 2026. Se realizaron pruebas modificando temporalmente los montos y periodos, verificando que los resultados se actualizaran correctamente.
 
 Como resultado, el módulo de presupuestos quedó funcional y preparado para integrarse con los demás componentes del sistema.
+
+---
+
+### Actividad 7. Desarrollo del módulo de obligaciones y pagos
+
+**Estado:** ✅ Terminada
+**Periodo programado:** 11 al 17 de octubre de 2026
+**Responsable:** Edson
+
+Se desarrolló el módulo de obligaciones y pagos dentro de la hoja Obligaciones del archivo principal del Sistema de Finanzas Personales.
+
+Se configuraron listas desplegables para seleccionar las categorías financieras, así como validaciones para los montos y las fechas de las obligaciones.
+
+También se implementaron fórmulas que permiten identificar automáticamente el estado de cada obligación como Pendiente, Pagado o Vencido, considerando su fecha límite y la fecha de pago registrada.
+
+Para comprobar su funcionamiento, se capturaron cuatro obligaciones ficticias correspondientes a servicios, suscripciones y deudas. Se realizaron pruebas registrando y eliminando temporalmente fechas de pago, verificando que los estados se actualizaran correctamente.
+
+Además, se comprobó el funcionamiento de los filtros para consultar las obligaciones según su estado.
+
+Como resultado, el módulo de obligaciones y pagos quedó funcional a nivel de prototipo en Excel y preparado para las siguientes etapas del desarrollo del sistema.

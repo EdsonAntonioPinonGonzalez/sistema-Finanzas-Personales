@@ -20,7 +20,7 @@ Este documento tiene como finalidad registrar el avance de las actividades corre
 | 6  | Desarrollar la sección de presupuestos                         | 11 oct. 2026    | 17 oct. 2026      | Ana Laura         | ✅ Terminada |
 | 7  | Desarrollar la sección de obligaciones y pagos                 | 11 oct. 2026    | 17 oct. 2026      | Edson             | ✅ Terminada |
 | 8  | Capturar datos de prueba y revisar la estructura                | 18 oct. 2026    | 21 oct. 2026      | Ana Laura y Edson | ✅ Terminada |
-| 9  | Configurar importación, validación y limpieza con Power Query | 22 oct. 2026    | 28 oct. 2026      | Edson             | ⬜ Pendiente |
+| 9  | Configurar importación, validación y limpieza con Power Query | 22 oct. 2026    | 28 oct. 2026      | Edson             | ✅ Terminada |
 | 10 | Crear el modelo de datos y relaciones en Power BI               | 29 oct. 2026    | 4 nov. 2026       | Ana Laura         | ⬜ Pendiente |
 | 11 | Crear indicadores, gráficas y dashboard en Power BI            | 5 nov. 2026     | 11 nov. 2026      | Ana Laura         | ⬜ Pendiente |
 | 12 | Desarrollar análisis complementario con Python/Pandas          | 5 nov. 2026     | 11 nov. 2026      | Edson             | ⬜ Pendiente |
@@ -90,7 +90,7 @@ Como resultado de esta actividad, la hoja `Categorías` quedó preparada para se
 **Periodo programado:** 4 al 10 de octubre de 2026
 **Responsables:** Ana Laura y Edson
 
-Se desarrolló el registro de ingresos y gastos dentro de la hoja Movimientos del archivo principal del Sistema de Finanzas Personales.
+Se desarrolló el registro de ingresos y gastos dentro de la hoja `Movimientos` del archivo principal del Sistema de Finanzas Personales.
 
 Se configuraron listas desplegables para seleccionar el tipo de movimiento, la categoría y el método de pago. También se establecieron validaciones para las fechas y los montos, así como el formato de moneda y la estructura de los identificadores.
 
@@ -118,8 +118,6 @@ Como resultado, el módulo de presupuestos quedó funcional y preparado para int
 
 ---
 
-	
-
 ### Actividad 7. Desarrollo del módulo de obligaciones y pagos
 
 **Estado:** ✅ Terminada
@@ -138,8 +136,6 @@ Además, se comprobó el funcionamiento de los filtros para consultar las obliga
 
 Como resultado, el módulo de obligaciones y pagos quedó funcional a nivel de prototipo en Excel y preparado para las siguientes etapas del desarrollo del sistema.
 
-
-
 ### Actividad 8. Captura de datos de prueba y revisión de la estructura
 
 **Estado:** ✅ Terminada
@@ -154,6 +150,26 @@ Las tres pruebas fueron exitosas. Se verificó que los cambios realizados en los
 
 Después de las pruebas, se restauraron los valores originales. También se guardaron capturas de pantalla como evidencia de los resultados obtenidos.
 
-Los resultados se documentaron en el archivo `<span>pruebas/pruebas-funcionales.md</span>` y las capturas se almacenaron en `<span>documentacion/evidencias</span>`.
+Los resultados se documentaron en el archivo `pruebas/pruebas-funcionales.md` y las capturas se almacenaron en `documentacion/evidencias`.
 
 Como resultado, se comprobó el funcionamiento de las características evaluadas del prototipo en Excel, quedando preparado para continuar con la etapa de integración de Power Query.
+
+---
+
+### Actividad 9. Importación, validación y limpieza de datos con Power Query
+
+**Estado:** ✅ Terminada
+**Periodo programado:** 22 al 28 de octubre de 2026
+**Responsable:** Edson
+
+Se realizó la importación y preparación de los datos del prototipo del Sistema de Finanzas Personales desarrollado en Excel, utilizando la herramienta Power Query.
+
+Se crearon cuatro consultas correspondientes a las tablas Movimientos, Categorías, Presupuestos y Obligaciones. En cada una se configuraron los tipos de datos, se filtraron los registros vacíos y se aplicaron herramientas para eliminar identificadores duplicados, espacios y caracteres innecesarios.
+
+También se revisaron los campos de fechas, montos y estados para comprobar que la información se importara correctamente, manteniendo los datos originales del prototipo sin modificaciones.
+
+Una vez finalizada la limpieza, las cuatro consultas se guardaron como conexiones dentro del archivo Excel. Posteriormente, se realizó una prueba mediante la opción Refresh All, comprobando que las consultas se actualizaran sin presentar errores.
+
+El procedimiento se documentó en el archivo `documentacion/procesamiento-datos/power-query.md` y se guardó una captura de pantalla como evidencia en `documentacion/evidencias/power-query-consultas.png`.
+
+Como resultado, se completó la etapa de importación, validación y limpieza de datos, dejando configuradas las consultas de Power Query para facilitar futuras actualizaciones y continuar con la preparación de la información para su análisis en Power BI.

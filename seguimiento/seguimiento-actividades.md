@@ -19,7 +19,7 @@ Este documento tiene como finalidad registrar el avance de las actividades corre
 | 5  | Desarrollar el registro de ingresos y gastos                    | 4 oct. 2026     | 10 oct. 2026      | Ana Laura y Edson | ✅ Terminada |
 | 6  | Desarrollar la sección de presupuestos                         | 11 oct. 2026    | 17 oct. 2026      | Ana Laura         | ✅ Terminada |
 | 7  | Desarrollar la sección de obligaciones y pagos                 | 11 oct. 2026    | 17 oct. 2026      | Edson             | ✅ Terminada |
-| 8  | Capturar datos de prueba y revisar la estructura                | 18 oct. 2026    | 21 oct. 2026      | Ana Laura y Edson | ⬜ Pendiente |
+| 8  | Capturar datos de prueba y revisar la estructura                | 18 oct. 2026    | 21 oct. 2026      | Ana Laura y Edson | ✅ Terminada |
 | 9  | Configurar importación, validación y limpieza con Power Query | 22 oct. 2026    | 28 oct. 2026      | Edson             | ⬜ Pendiente |
 | 10 | Crear el modelo de datos y relaciones en Power BI               | 29 oct. 2026    | 4 nov. 2026       | Ana Laura         | ⬜ Pendiente |
 | 11 | Crear indicadores, gráficas y dashboard en Power BI            | 5 nov. 2026     | 11 nov. 2026      | Ana Laura         | ⬜ Pendiente |
@@ -118,6 +118,8 @@ Como resultado, el módulo de presupuestos quedó funcional y preparado para int
 
 ---
 
+	
+
 ### Actividad 7. Desarrollo del módulo de obligaciones y pagos
 
 **Estado:** ✅ Terminada
@@ -135,3 +137,23 @@ Para comprobar su funcionamiento, se capturaron cuatro obligaciones ficticias co
 Además, se comprobó el funcionamiento de los filtros para consultar las obligaciones según su estado.
 
 Como resultado, el módulo de obligaciones y pagos quedó funcional a nivel de prototipo en Excel y preparado para las siguientes etapas del desarrollo del sistema.
+
+
+
+### Actividad 8. Captura de datos de prueba y revisión de la estructura
+
+**Estado:** ✅ Terminada
+**Periodo programado:** 18 al 21 de octubre de 2026
+**Responsables:** Ana Laura y Edson
+
+Se realizó una revisión del prototipo del Sistema de Finanzas Personales desarrollado en Excel, utilizando los datos ficticios registrados durante las actividades anteriores.
+
+Se llevaron a cabo tres pruebas funcionales para comprobar la actualización de los movimientos financieros, los cálculos automáticos de los presupuestos y los estados de las obligaciones.
+
+Las tres pruebas fueron exitosas. Se verificó que los cambios realizados en los movimientos se reflejaran en los presupuestos, que los estados de los presupuestos se actualizaran correctamente y que las obligaciones cambiaran de estado según sus fechas de pago.
+
+Después de las pruebas, se restauraron los valores originales. También se guardaron capturas de pantalla como evidencia de los resultados obtenidos.
+
+Los resultados se documentaron en el archivo `<span>pruebas/pruebas-funcionales.md</span>` y las capturas se almacenaron en `<span>documentacion/evidencias</span>`.
+
+Como resultado, se comprobó el funcionamiento de las características evaluadas del prototipo en Excel, quedando preparado para continuar con la etapa de integración de Power Query.

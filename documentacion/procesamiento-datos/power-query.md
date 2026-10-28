@@ -35,6 +35,19 @@ Se configuraron correctamente las cuatro consultas y se realizó una prueba de a
 
 Las tablas originales se conservaron sin modificaciones y las filas vacías preparadas para futuros registros fueron excluidas de las consultas mediante filtros.
 
+## Pruebas realizadas
+
+Para comprobar el funcionamiento de las transformaciones configuradas en Power Query, se realizaron cuatro pruebas funcionales sobre la consulta `pq_Movimientos`.
+
+1. **PQ-01. Filtrado de registros vacíos:** Se comprobó que los registros con identificador nulo fueran excluidos de la consulta.
+2. **PQ-02. Limpieza de textos:** Se verificó que la transformación Trim eliminara los espacios adicionales de un concepto.
+3. **PQ-03. Eliminación de duplicados:** Se agregó temporalmente un movimiento con identificador repetido y se comprobó que Power Query conservara cinco registros únicos.
+4. **PQ-04. Actualización de datos:** Se agregó un nuevo movimiento y se verificó que apareciera en la consulta después de ejecutar Refresh All.
+
+Las cuatro pruebas fueron exitosas. Al finalizar, se restauraron los datos originales del prototipo y se actualizaron nuevamente las consultas.
+
+Los procedimientos, resultados y evidencias se documentaron en `pruebas/pruebas-power-query.md`.
+
 ## Evidencia
 
 La captura de las consultas se encuentra en:

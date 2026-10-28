@@ -136,6 +136,8 @@ Además, se comprobó el funcionamiento de los filtros para consultar las obliga
 
 Como resultado, el módulo de obligaciones y pagos quedó funcional a nivel de prototipo en Excel y preparado para las siguientes etapas del desarrollo del sistema.
 
+---
+
 ### Actividad 8. Captura de datos de prueba y revisión de la estructura
 
 **Estado:** ✅ Terminada
@@ -171,5 +173,13 @@ También se revisaron los campos de fechas, montos y estados para comprobar que 
 Una vez finalizada la limpieza, las cuatro consultas se guardaron como conexiones dentro del archivo Excel. Posteriormente, se realizó una prueba mediante la opción Refresh All, comprobando que las consultas se actualizaran sin presentar errores.
 
 El procedimiento se documentó en el archivo `documentacion/procesamiento-datos/power-query.md` y se guardó una captura de pantalla como evidencia en `documentacion/evidencias/power-query-consultas.png`.
+
+Adicionalmente, se realizaron cuatro pruebas funcionales para verificar el funcionamiento de las transformaciones implementadas en Power Query. Estas pruebas incluyeron el filtrado de registros vacíos, la limpieza de espacios adicionales en los textos, la eliminación de identificadores duplicados y la actualización de consultas mediante Refresh All.
+
+Las cuatro pruebas fueron exitosas. Se comprobó que Power Query excluyera los registros sin identificador, limpiara correctamente los textos, conservara registros con identificadores únicos e incorporara nuevos movimientos al actualizar las consultas.
+
+Al finalizar, se eliminaron los registros temporales utilizados durante las pruebas y se restauraron los datos originales del prototipo.
+
+Los procedimientos, resultados y capturas de pantalla se documentaron en el archivo `pruebas/pruebas-power-query.md`, y las evidencias se almacenaron en `documentacion/evidencias`.
 
 Como resultado, se completó la etapa de importación, validación y limpieza de datos, dejando configuradas las consultas de Power Query para facilitar futuras actualizaciones y continuar con la preparación de la información para su análisis en Power BI.

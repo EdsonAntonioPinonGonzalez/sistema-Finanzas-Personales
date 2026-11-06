@@ -22,7 +22,7 @@ Este documento tiene como finalidad registrar el avance de las actividades corre
 | 8  | Capturar datos de prueba y revisar la estructura                | 18 oct. 2026    | 21 oct. 2026      | Ana Laura y Edson | ✅ Terminada |
 | 9  | Configurar importación, validación y limpieza con Power Query | 22 oct. 2026    | 28 oct. 2026      | Edson             | ✅ Terminada |
 | 10 | Crear el modelo de datos y relaciones en Power BI               | 29 oct. 2026    | 4 nov. 2026       | Ana Laura         | ✅ Terminada |
-| 11 | Crear indicadores, gráficas y dashboard en Power BI            | 5 nov. 2026     | 11 nov. 2026      | Ana Laura         | ⬜ Pendiente |
+| 11 | Crear indicadores, gráficas y dashboard en Power BI            | 5 nov. 2026     | 11 nov. 2026      | Ana Laura         | ✅ Terminada |
 | 12 | Desarrollar análisis complementario con Python/Pandas          | 5 nov. 2026     | 11 nov. 2026      | Edson             | ⬜ Pendiente |
 | 13 | Integrar los componentes desarrollados                          | 12 nov. 2026    | 14 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente |
 | 14 | Realizar pruebas funcionales                                    | 15 nov. 2026    | 18 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente |
@@ -207,3 +207,36 @@ Los procedimientos y resultados de las pruebas se documentaron en pruebas/prueba
 El modelo desarrollado se guardó en el archivo power-bi/Sistema_Finanzas_Personales.pbix.
 
 Como resultado, se completó la estructura inicial del modelo de datos en Power BI y se verificó el funcionamiento de las relaciones entre las cuatro tablas, quedando preparado para continuar con la creación de indicadores y visualizaciones financieras.
+
+
+
+### Actividad 11. Creación de indicadores y gráficos en Power BI
+
+**Estado:** ✅ Terminada
+**Periodo programado:** 5 al 11 de noviembre de 2026
+**Responsable:** Ana Laura
+
+Se desarrolló un dashboard financiero en Power BI utilizando los datos del prototipo en Excel. Se crearon tres indicadores mediante medidas DAX: ingresos totales, gastos totales y saldo disponible.
+
+También se implementaron un gráfico de distribución de gastos por categoría, un gráfico comparativo de ingresos y gastos, un gráfico de presupuestos y una tabla para consultar las obligaciones registradas.
+
+Se incorporó un segmentador de categorías para permitir el filtrado interactivo de los indicadores y visualizaciones.
+
+**Pruebas realizadas:**
+
+Se ejecutaron cinco pruebas funcionales para verificar el filtrado por categoría, los cálculos de los indicadores, la distribución de gastos, la comparación de presupuestos y la información de obligaciones.
+
+Las cinco pruebas fueron exitosas y se guardaron sus respectivas evidencias.
+
+**Evidencia y documentación:**
+
+* `pruebas/pruebas-dashboard-power-bi.md`
+* `documentacion/evidencias/prueba-dashboard-filtrado.png`
+* `documentacion/evidencias/prueba-dashboard-indicadores.png`
+* `documentacion/evidencias/prueba-dashboard-distribucion-gastos.png`
+* `documentacion/evidencias/prueba-dashboard-presupuestos.png`
+* `documentacion/evidencias/prueba-dashboard-obligaciones.png`
+
+**Observaciones:**
+
+Las funcionalidades evaluadas cumplen con los resultados esperados para los datos de prueba utilizados. Quedan pendientes las actividades posteriores de integración y validación general del sistema.

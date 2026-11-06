@@ -21,7 +21,7 @@ Este documento tiene como finalidad registrar el avance de las actividades corre
 | 7  | Desarrollar la sección de obligaciones y pagos                 | 11 oct. 2026    | 17 oct. 2026      | Edson             | ✅ Terminada |
 | 8  | Capturar datos de prueba y revisar la estructura                | 18 oct. 2026    | 21 oct. 2026      | Ana Laura y Edson | ✅ Terminada |
 | 9  | Configurar importación, validación y limpieza con Power Query | 22 oct. 2026    | 28 oct. 2026      | Edson             | ✅ Terminada |
-| 10 | Crear el modelo de datos y relaciones en Power BI               | 29 oct. 2026    | 4 nov. 2026       | Ana Laura         | ⬜ Pendiente |
+| 10 | Crear el modelo de datos y relaciones en Power BI               | 29 oct. 2026    | 4 nov. 2026       | Ana Laura         | ✅ Terminada |
 | 11 | Crear indicadores, gráficas y dashboard en Power BI            | 5 nov. 2026     | 11 nov. 2026      | Ana Laura         | ⬜ Pendiente |
 | 12 | Desarrollar análisis complementario con Python/Pandas          | 5 nov. 2026     | 11 nov. 2026      | Edson             | ⬜ Pendiente |
 | 13 | Integrar los componentes desarrollados                          | 12 nov. 2026    | 14 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente |
@@ -183,3 +183,27 @@ Al finalizar, se eliminaron los registros temporales utilizados durante las prue
 Los procedimientos, resultados y capturas de pantalla se documentaron en el archivo `pruebas/pruebas-power-query.md`, y las evidencias se almacenaron en `documentacion/evidencias`.
 
 Como resultado, se completó la etapa de importación, validación y limpieza de datos, dejando configuradas las consultas de Power Query para facilitar futuras actualizaciones y continuar con la preparación de la información para su análisis en Power BI.
+
+---
+
+### Actividad 10. Creación del modelo de datos y relaciones en Power BI
+
+**Estado:** ✅ Terminada
+**Periodo programado:** 29 de octubre al 4 de noviembre de 2026
+**Responsable:** Ana Laura
+
+Se realizó la importación de las tablas Movimientos, Categorías, Presupuestos y Obligaciones del prototipo del Sistema de Finanzas Personales desarrollado en Excel hacia Microsoft Power BI Desktop.
+
+Se revisaron y configuraron los tipos de datos de las columnas, se excluyeron los registros vacíos y se aplicaron transformaciones de limpieza de texto y eliminación de identificadores duplicados mediante Power Query.
+
+Posteriormente, se creó el modelo de datos utilizando la tabla Categorías como referencia principal. Se establecieron tres relaciones de uno a muchos entre Categorías y las tablas Movimientos, Presupuestos y Obligaciones, con dirección de filtrado única.
+
+Para comprobar su funcionamiento, se realizaron cuatro pruebas relacionadas con la configuración del modelo y el filtrado de movimientos, presupuestos y obligaciones por categoría.
+
+Las cuatro pruebas fueron exitosas. Durante la revisión se identificó una diferencia entre el periodo de un presupuesto y la fecha de un movimiento. Después de ajustar el periodo en Excel y actualizar Power BI, se comprobó que los importes coincidieran correctamente.
+
+Los procedimientos y resultados de las pruebas se documentaron en pruebas/pruebas-power-bi-modelo.md, mientras que las capturas de pantalla se almacenaron en documentacion/evidencias.
+
+El modelo desarrollado se guardó en el archivo power-bi/Sistema_Finanzas_Personales.pbix.
+
+Como resultado, se completó la estructura inicial del modelo de datos en Power BI y se verificó el funcionamiento de las relaciones entre las cuatro tablas, quedando preparado para continuar con la creación de indicadores y visualizaciones financieras.

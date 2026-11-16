@@ -23,7 +23,7 @@ Este documento tiene como finalidad registrar el avance de las actividades corre
 | 9  | Configurar importación, validación y limpieza con Power Query | 22 oct. 2026    | 28 oct. 2026      | Edson             | ✅ Terminada |
 | 10 | Crear el modelo de datos y relaciones en Power BI               | 29 oct. 2026    | 4 nov. 2026       | Ana Laura         | ✅ Terminada |
 | 11 | Crear indicadores, gráficas y dashboard en Power BI            | 5 nov. 2026     | 11 nov. 2026      | Ana Laura         | ✅ Terminada |
-| 12 | Desarrollar análisis complementario con Python/Pandas          | 5 nov. 2026     | 11 nov. 2026      | Edson             | ⬜ Pendiente |
+| 12 | Desarrollar análisis complementario con Python/Pandas          | 5 nov. 2026     | 11 nov. 2026      | Edson             | ✅ Terminada |
 | 13 | Integrar los componentes desarrollados                          | 12 nov. 2026    | 14 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente |
 | 14 | Realizar pruebas funcionales                                    | 15 nov. 2026    | 18 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente |
 | 15 | Elaborar manual y recopilar evidencias                          | 15 nov. 2026    | 21 nov. 2026      | Ana Laura         | ⬜ Pendiente |
@@ -240,3 +240,31 @@ Las cinco pruebas fueron exitosas y se guardaron sus respectivas evidencias.
 **Observaciones:**
 
 Las funcionalidades evaluadas cumplen con los resultados esperados para los datos de prueba utilizados. Quedan pendientes las actividades posteriores de integración y validación general del sistema.
+
+---
+
+### Actividad 12. Análisis adicional de datos con Python y Pandas
+
+**Estado:** ✅ Terminada
+**Periodo programado:** 5 al 11 de noviembre de 2026
+**Responsable:** Edson
+
+Se realizó el análisis adicional de los datos financieros del prototipo del Sistema de Finanzas Personales utilizando Python y la biblioteca Pandas, tomando como fuente de información los movimientos registrados en el archivo Excel del proyecto.
+
+Se desarrolló un programa que permite importar los datos de la hoja Movimientos, identificar los registros válidos y convertir los montos a valores numéricos para facilitar su procesamiento. A partir de esta información, se implementaron cálculos para obtener los ingresos totales, gastos totales y balance financiero.
+
+Adicionalmente, se realizó un análisis de los gastos agrupados por categoría, utilizando las funciones de Pandas para identificar los montos correspondientes a Alimentación, Transporte y Servicios. También se implementó un resumen mensual que permite agrupar los ingresos y gastos por periodo y calcular el balance correspondiente.
+
+Durante la ejecución del programa se procesaron cinco movimientos financieros correspondientes a octubre de 2026. Los resultados obtenidos fueron ingresos totales de $9,700.00, gastos totales de $1,700.00 y un balance financiero de $8,000.00. Estos valores coincidieron con los indicadores previamente calculados en Power BI.
+
+El programa desarrollado se guardó en el archivo python/analisis_financiero.py, utilizando como fuente de datos excel/Sistema_Finanzas_Personales.xlsx.
+
+Para verificar el funcionamiento de los análisis implementados, se realizaron seis pruebas automatizadas utilizando pytest. Estas pruebas incluyeron la importación de los cinco movimientos, el cálculo de ingresos totales, gastos totales, balance financiero, gastos por categoría y resumen mensual.
+
+Las seis pruebas fueron exitosas. Se comprobó que los cálculos generaran los resultados esperados a partir de los datos de prueba y que la agrupación por categorías y periodos se realizara correctamente.
+
+Los casos de prueba se implementaron en el archivo pruebas/test_analisis_financiero.py, mientras que los procedimientos, resultados y conclusiones se documentaron en pruebas/pruebas-analisis-python.md. Adicionalmente, se guardó una captura de la ejecución de las pruebas en documentacion/evidencias/pruebas-python-pytest.png.
+
+Como resultado, se completó la etapa de análisis adicional con Python y Pandas, incorporando una herramienta complementaria para procesar y analizar los movimientos financieros del prototipo. Los resultados obtenidos permiten continuar con la integración de los componentes del proyecto y las siguientes actividades de desarrollo y validación.
+
+---

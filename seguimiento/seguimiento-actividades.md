@@ -10,25 +10,25 @@ Este documento tiene como finalidad registrar el avance de las actividades corre
 
 ## Seguimiento general
 
-| #  | Actividad                                                       | Fecha de inicio | Fecha de término | Responsable       | Estado       |
-| -- | --------------------------------------------------------------- | --------------- | ----------------- | ----------------- | ------------ |
-| 1  | Revisar el documento de requisitos y las funciones principales  | 20 sep. 2026    | 22 sep. 2026      | Ana Laura y Edson | ✅ Terminada |
-| 2  | Definir el alcance y organizar el plan de trabajo               | 23 sep. 2026    | 26 sep. 2026      | Ana Laura y Edson | ✅ Terminada |
-| 3  | Diseñar la estructura general del archivo de Excel             | 27 sep. 2026    | 3 oct. 2026       | Ana Laura         | ✅ Terminada |
-| 4  | Crear el catálogo de categorías financieras                   | 27 sep. 2026    | 2 oct. 2026       | Edson             | ✅ Terminada |
-| 5  | Desarrollar el registro de ingresos y gastos                    | 4 oct. 2026     | 10 oct. 2026      | Ana Laura y Edson | ✅ Terminada |
-| 6  | Desarrollar la sección de presupuestos                         | 11 oct. 2026    | 17 oct. 2026      | Ana Laura         | ✅ Terminada |
-| 7  | Desarrollar la sección de obligaciones y pagos                 | 11 oct. 2026    | 17 oct. 2026      | Edson             | ✅ Terminada |
-| 8  | Capturar datos de prueba y revisar la estructura                | 18 oct. 2026    | 21 oct. 2026      | Ana Laura y Edson | ✅ Terminada |
-| 9  | Configurar importación, validación y limpieza con Power Query | 22 oct. 2026    | 28 oct. 2026      | Edson             | ✅ Terminada |
-| 10 | Crear el modelo de datos y relaciones en Power BI               | 29 oct. 2026    | 4 nov. 2026       | Ana Laura         | ✅ Terminada |
-| 11 | Crear indicadores, gráficas y dashboard en Power BI            | 5 nov. 2026     | 11 nov. 2026      | Ana Laura         | ✅ Terminada |
-| 12 | Desarrollar análisis complementario con Python/Pandas          | 5 nov. 2026     | 11 nov. 2026      | Edson             | ✅ Terminada |
-| 13 | Integrar los componentes desarrollados                          | 12 nov. 2026    | 14 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente |
-| 14 | Realizar pruebas funcionales                                    | 15 nov. 2026    | 18 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente |
-| 15 | Elaborar manual y recopilar evidencias                          | 15 nov. 2026    | 21 nov. 2026      | Ana Laura         | ⬜ Pendiente |
-| 16 | Corregir errores encontrados durante las pruebas                | 19 nov. 2026    | 21 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente |
-| 17 | Realizar revisión final, respaldo y preparación de la entrega | 22 nov. 2026    | 23 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente |
+| #  | Actividad                                                       | Fecha de inicio | Fecha de término | Responsable       | Estado        |
+| -- | --------------------------------------------------------------- | --------------- | ----------------- | ----------------- | ------------- |
+| 1  | Revisar el documento de requisitos y las funciones principales  | 20 sep. 2026    | 22 sep. 2026      | Ana Laura y Edson | ✅ Terminada  |
+| 2  | Definir el alcance y organizar el plan de trabajo               | 23 sep. 2026    | 26 sep. 2026      | Ana Laura y Edson | ✅ Terminada  |
+| 3  | Diseñar la estructura general del archivo de Excel             | 27 sep. 2026    | 3 oct. 2026       | Ana Laura         | ✅ Terminada  |
+| 4  | Crear el catálogo de categorías financieras                   | 27 sep. 2026    | 2 oct. 2026       | Edson             | ✅ Terminada  |
+| 5  | Desarrollar el registro de ingresos y gastos                    | 4 oct. 2026     | 10 oct. 2026      | Ana Laura y Edson | ✅ Terminada  |
+| 6  | Desarrollar la sección de presupuestos                         | 11 oct. 2026    | 17 oct. 2026      | Ana Laura         | ✅ Terminada  |
+| 7  | Desarrollar la sección de obligaciones y pagos                 | 11 oct. 2026    | 17 oct. 2026      | Edson             | ✅ Terminada  |
+| 8  | Capturar datos de prueba y revisar la estructura                | 18 oct. 2026    | 21 oct. 2026      | Ana Laura y Edson | ✅ Terminada  |
+| 9  | Configurar importación, validación y limpieza con Power Query | 22 oct. 2026    | 28 oct. 2026      | Edson             | ✅ Terminada  |
+| 10 | Crear el modelo de datos y relaciones en Power BI               | 29 oct. 2026    | 4 nov. 2026       | Ana Laura         | ✅ Terminada  |
+| 11 | Crear indicadores, gráficas y dashboard en Power BI            | 5 nov. 2026     | 11 nov. 2026      | Ana Laura         | ✅ Terminada  |
+| 12 | Desarrollar análisis complementario con Python/Pandas          | 5 nov. 2026     | 11 nov. 2026      | Edson             | ✅ Terminada  |
+| 13 | Integrar los componentes desarrollados                          | 12 nov. 2026    | 14 nov. 2026      | Ana Laura y Edson | ✅ Terminada  |
+| 14 | Realizar pruebas funcionales                                    | 15 nov. 2026    | 18 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente  |
+| 15 | Elaborar manual y recopilar evidencias                          | 15 nov. 2026    | 21 nov. 2026      | Ana Laura         | ⬜ Pendiente  |
+| 16 | Corregir errores encontrados durante las pruebas                | 19 nov. 2026    | 21 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente  |
+| 17 | Realizar revisión final, respaldo y preparación de la entrega | 22 nov. 2026    | 23 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente  |
 
 ## Registro de avances
 
@@ -208,8 +208,6 @@ El modelo desarrollado se guardó en el archivo power-bi/Sistema_Finanzas_Person
 
 Como resultado, se completó la estructura inicial del modelo de datos en Power BI y se verificó el funcionamiento de las relaciones entre las cuatro tablas, quedando preparado para continuar con la creación de indicadores y visualizaciones financieras.
 
-
-
 ### Actividad 11. Creación de indicadores y gráficos en Power BI
 
 **Estado:** ✅ Terminada
@@ -266,5 +264,29 @@ Las seis pruebas fueron exitosas. Se comprobó que los cálculos generaran los r
 Los casos de prueba se implementaron en el archivo pruebas/test_analisis_financiero.py, mientras que los procedimientos, resultados y conclusiones se documentaron en pruebas/pruebas-analisis-python.md. Adicionalmente, se guardó una captura de la ejecución de las pruebas en documentacion/evidencias/pruebas-python-pytest.png.
 
 Como resultado, se completó la etapa de análisis adicional con Python y Pandas, incorporando una herramienta complementaria para procesar y analizar los movimientos financieros del prototipo. Los resultados obtenidos permiten continuar con la integración de los componentes del proyecto y las siguientes actividades de desarrollo y validación.
+
+
+
+### Actividad 13. Integración de los componentes del sistema
+
+**Estado:** ✅ Terminada
+**Periodo programado:** 12 al 14 de noviembre de 2026
+**Responsables:** Edson y Ana Laura
+
+Se realizó la integración y verificación de los componentes desarrollados para el prototipo del Sistema de Finanzas Personales, utilizando Microsoft Excel, Power Query, Power BI y Python con la biblioteca Pandas.
+
+Inicialmente, se comprobó que el programa desarrollado en Python pudiera acceder al archivo Excel del proyecto e importar correctamente los movimientos financieros registrados. Durante esta verificación se procesaron cinco movimientos correspondientes a octubre de 2026 y se obtuvieron ingresos totales de $9,700.00, gastos totales de $1,700.00 y un balance financiero de $8,000.00.
+
+Posteriormente, se revisaron las consultas de Power Query configuradas en Excel, verificando la disponibilidad de `pq_Movimientos`, `pq_Categorias`, `pq_Presupuestos` y `pq_Obligaciones`. Se comprobó que la consulta de movimientos mostrara correctamente los cinco registros del prototipo y conservara las transformaciones aplicadas para la validación y limpieza de datos.
+
+También se realizó la revisión de las consultas utilizadas en Power BI. Durante este procedimiento se identificó que algunas conservaban rutas de acceso correspondientes a otra computadora, lo que impedía actualizar correctamente la información. Para solucionar el problema, se modificaron las rutas de origen de las cuatro consultas, conservando sus pasos de transformación y las visualizaciones del dashboard.
+
+Una vez corregidas las rutas, se aplicaron los cambios y se verificó que los indicadores financieros de Power BI coincidieran con los resultados obtenidos mediante Python y Pandas. Se comprobó la visualización de los ingresos, gastos, saldo disponible, distribución de gastos por categoría, comparación de presupuestos y registro de obligaciones.
+
+Como evidencia de la integración entre Excel y Python, se guardó una captura de la ejecución del análisis financiero en `documentacion/evidencias/integracion-excel-python.png`. La revisión de las consultas y transformaciones de Power Query se documentó mediante `documentacion/evidencias/integracion-power-query.png`, mientras que la visualización del dashboard financiero se registró en `documentacion/evidencias/integracion-power-bi.png`.
+
+El procedimiento completo, los componentes utilizados, las verificaciones realizadas y los resultados obtenidos se documentaron en el archivo `documentacion/integracion-componentes.md`.
+
+Como resultado, se comprobó que los componentes del prototipo pueden trabajar utilizando una fuente común de información y generar resultados financieros consistentes. La integración realizada permitió identificar y corregir problemas relacionados con las rutas de acceso, dejando los componentes preparados para continuar con las pruebas funcionales y la documentación final del proyecto.
 
 ---

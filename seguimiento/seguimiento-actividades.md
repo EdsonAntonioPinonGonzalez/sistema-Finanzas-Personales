@@ -25,7 +25,7 @@ Este documento tiene como finalidad registrar el avance de las actividades corre
 | 11 | Crear indicadores, gráficas y dashboard en Power BI            | 5 nov. 2026     | 11 nov. 2026      | Ana Laura         | ✅ Terminada  |
 | 12 | Desarrollar análisis complementario con Python/Pandas          | 5 nov. 2026     | 11 nov. 2026      | Edson             | ✅ Terminada  |
 | 13 | Integrar los componentes desarrollados                          | 12 nov. 2026    | 14 nov. 2026      | Ana Laura y Edson | ✅ Terminada  |
-| 14 | Realizar pruebas funcionales                                    | 15 nov. 2026    | 18 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente  |
+| 14 | Realizar pruebas funcionales                                    | 15 nov. 2026    | 18 nov. 2026      | Ana Laura y Edson | ✅ Terminada  |
 | 15 | Elaborar manual y recopilar evidencias                          | 15 nov. 2026    | 21 nov. 2026      | Ana Laura         | ⬜ Pendiente  |
 | 16 | Corregir errores encontrados durante las pruebas                | 19 nov. 2026    | 21 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente  |
 | 17 | Realizar revisión final, respaldo y preparación de la entrega | 22 nov. 2026    | 23 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente  |
@@ -290,3 +290,27 @@ El procedimiento completo, los componentes utilizados, las verificaciones realiz
 Como resultado, se comprobó que los componentes del prototipo pueden trabajar utilizando una fuente común de información y generar resultados financieros consistentes. La integración realizada permitió identificar y corregir problemas relacionados con las rutas de acceso, dejando los componentes preparados para continuar con las pruebas funcionales y la documentación final del proyecto.
 
 ---
+
+### Actividad 14. Pruebas funcionales del sistema
+
+**Estado:** ✅ Terminada
+**Periodo programado:** 15 al 18 de noviembre de 2026
+**Responsable:** Edson
+
+Se realizaron las pruebas funcionales del prototipo del Sistema de Finanzas Personales con el propósito de verificar el correcto funcionamiento de sus componentes, identificar posibles errores y comprobar que las operaciones financieras se procesaran adecuadamente.
+
+Para esta actividad se diseñaron y ejecutaron ocho casos de prueba, abarcando el registro y almacenamiento de movimientos financieros, la validación de datos ingresados, la actualización de presupuestos y obligaciones, el procesamiento de información mediante Power Query y Python, así como la actualización y visualización de resultados en Power BI.
+
+Inicialmente, se verificó el registro de movimientos en Excel mediante la incorporación temporal de un nuevo gasto, comprobando que la información permaneciera almacenada después de guardar y abrir nuevamente el archivo. También se realizaron pruebas de validación introduciendo montos negativos y tipos de movimiento no permitidos, confirmando que el sistema rechazara los valores incorrectos.
+
+Posteriormente, se evaluó la actualización automática de los presupuestos al modificar los movimientos financieros. Se comprobó que los montos gastados y disponibles se ajustaran correctamente. De igual manera, se verificó el seguimiento de las obligaciones financieras mediante la modificación temporal de una fecha de pago, confirmando que el estado cambiara de Vencido a Pagado.
+
+En Power Query se actualizaron las consultas correspondientes a Movimientos, Categorías, Presupuestos y Obligaciones, verificando que los datos se importaran y transformaran correctamente. También se ejecutó el programa desarrollado en Python para comprobar el procesamiento de los registros financieros y la generación de los resúmenes correspondientes.
+
+En Power BI se realizaron pruebas de actualización de datos y funcionamiento de las visualizaciones. Se verificó que los filtros por categoría mostraran correctamente los gastos y presupuestos correspondientes a Alimentación y Transporte. Asimismo, se comprobó la consistencia de los resultados entre Excel, Python y Power BI, obteniendo ingresos totales de $9,700.00, gastos totales de $1,700.00 y un saldo disponible de $8,000.00.
+
+Durante las pruebas se identificó una limitación relacionada con la portabilidad de las conexiones de Power BI, debido a que las rutas de acceso al archivo Excel pueden variar entre computadoras. Para reducir este inconveniente, se implementó el parámetro RutaExcel, permitiendo centralizar la configuración de las cuatro consultas. También se desarrolló el script iniciar-sistema.ps1, que permite detectar automáticamente la ubicación de los archivos principales del proyecto. La configuración automática de las conexiones de Power BI quedó propuesta como una mejora futura.
+
+Las ocho pruebas funcionales se completaron satisfactoriamente. Los procedimientos, resultados y conclusiones se documentaron en el archivo pruebas/pruebas-funcionales-sistema.md, mientras que las capturas correspondientes se almacenaron en documentacion/evidencias/.
+
+Como resultado, se completó la etapa de pruebas funcionales del prototipo, comprobando el funcionamiento de las operaciones evaluadas y la consistencia de los datos entre los diferentes componentes. Los resultados obtenidos permiten continuar con las siguientes actividades de revisión, documentación y mejora del Sistema de Finanzas Personales.

@@ -10,25 +10,25 @@ Este documento tiene como finalidad registrar el avance de las actividades corre
 
 ## Seguimiento general
 
-| #  | Actividad                                                       | Fecha de inicio | Fecha de término | Responsable       | Estado        |
-| -- | --------------------------------------------------------------- | --------------- | ----------------- | ----------------- | ------------- |
-| 1  | Revisar el documento de requisitos y las funciones principales  | 20 sep. 2026    | 22 sep. 2026      | Ana Laura y Edson | ✅ Terminada  |
-| 2  | Definir el alcance y organizar el plan de trabajo               | 23 sep. 2026    | 26 sep. 2026      | Ana Laura y Edson | ✅ Terminada  |
-| 3  | Diseñar la estructura general del archivo de Excel             | 27 sep. 2026    | 3 oct. 2026       | Ana Laura         | ✅ Terminada  |
-| 4  | Crear el catálogo de categorías financieras                   | 27 sep. 2026    | 2 oct. 2026       | Edson             | ✅ Terminada  |
-| 5  | Desarrollar el registro de ingresos y gastos                    | 4 oct. 2026     | 10 oct. 2026      | Ana Laura y Edson | ✅ Terminada  |
-| 6  | Desarrollar la sección de presupuestos                         | 11 oct. 2026    | 17 oct. 2026      | Ana Laura         | ✅ Terminada  |
-| 7  | Desarrollar la sección de obligaciones y pagos                 | 11 oct. 2026    | 17 oct. 2026      | Edson             | ✅ Terminada  |
-| 8  | Capturar datos de prueba y revisar la estructura                | 18 oct. 2026    | 21 oct. 2026      | Ana Laura y Edson | ✅ Terminada  |
-| 9  | Configurar importación, validación y limpieza con Power Query | 22 oct. 2026    | 28 oct. 2026      | Edson             | ✅ Terminada  |
-| 10 | Crear el modelo de datos y relaciones en Power BI               | 29 oct. 2026    | 4 nov. 2026       | Ana Laura         | ✅ Terminada  |
-| 11 | Crear indicadores, gráficas y dashboard en Power BI            | 5 nov. 2026     | 11 nov. 2026      | Ana Laura         | ✅ Terminada  |
-| 12 | Desarrollar análisis complementario con Python/Pandas          | 5 nov. 2026     | 11 nov. 2026      | Edson             | ✅ Terminada  |
-| 13 | Integrar los componentes desarrollados                          | 12 nov. 2026    | 14 nov. 2026      | Ana Laura y Edson | ✅ Terminada  |
-| 14 | Realizar pruebas funcionales                                    | 15 nov. 2026    | 18 nov. 2026      | Ana Laura y Edson | ✅ Terminada  |
-| 15 | Elaborar manual y recopilar evidencias                          | 15 nov. 2026    | 21 nov. 2026      | Ana Laura         | ⬜ Pendiente  |
-| 16 | Corregir errores encontrados durante las pruebas                | 19 nov. 2026    | 21 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente  |
-| 17 | Realizar revisión final, respaldo y preparación de la entrega | 22 nov. 2026    | 23 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente  |
+| #  | Actividad                                                       | Fecha de inicio | Fecha de término | Responsable       | Estado       |
+| -- | --------------------------------------------------------------- | --------------- | ----------------- | ----------------- | ------------ |
+| 1  | Revisar el documento de requisitos y las funciones principales  | 20 sep. 2026    | 22 sep. 2026      | Ana Laura y Edson | ✅ Terminada |
+| 2  | Definir el alcance y organizar el plan de trabajo               | 23 sep. 2026    | 26 sep. 2026      | Ana Laura y Edson | ✅ Terminada |
+| 3  | Diseñar la estructura general del archivo de Excel             | 27 sep. 2026    | 3 oct. 2026       | Ana Laura         | ✅ Terminada |
+| 4  | Crear el catálogo de categorías financieras                   | 27 sep. 2026    | 2 oct. 2026       | Edson             | ✅ Terminada |
+| 5  | Desarrollar el registro de ingresos y gastos                    | 4 oct. 2026     | 10 oct. 2026      | Ana Laura y Edson | ✅ Terminada |
+| 6  | Desarrollar la sección de presupuestos                         | 11 oct. 2026    | 17 oct. 2026      | Ana Laura         | ✅ Terminada |
+| 7  | Desarrollar la sección de obligaciones y pagos                 | 11 oct. 2026    | 17 oct. 2026      | Edson             | ✅ Terminada |
+| 8  | Capturar datos de prueba y revisar la estructura                | 18 oct. 2026    | 21 oct. 2026      | Ana Laura y Edson | ✅ Terminada |
+| 9  | Configurar importación, validación y limpieza con Power Query | 22 oct. 2026    | 28 oct. 2026      | Edson             | ✅ Terminada |
+| 10 | Crear el modelo de datos y relaciones en Power BI               | 29 oct. 2026    | 4 nov. 2026       | Ana Laura         | ✅ Terminada |
+| 11 | Crear indicadores, gráficas y dashboard en Power BI            | 5 nov. 2026     | 11 nov. 2026      | Ana Laura         | ✅ Terminada |
+| 12 | Desarrollar análisis complementario con Python/Pandas          | 5 nov. 2026     | 11 nov. 2026      | Edson             | ✅ Terminada |
+| 13 | Integrar los componentes desarrollados                          | 12 nov. 2026    | 14 nov. 2026      | Ana Laura y Edson | ✅ Terminada |
+| 14 | Realizar pruebas funcionales                                    | 15 nov. 2026    | 18 nov. 2026      | Ana Laura y Edson | ✅ Terminada |
+| 15 | Elaborar manual y recopilar evidencias                          | 15 nov. 2026    | 21 nov. 2026      | Ana Laura         | ⬜ Pendiente |
+| 16 | Corregir errores encontrados durante las pruebas                | 19 nov. 2026    | 21 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente |
+| 17 | Realizar revisión final, respaldo y preparación de la entrega | 22 nov. 2026    | 23 nov. 2026      | Ana Laura y Edson | ⬜ Pendiente |
 
 ## Registro de avances
 
@@ -265,8 +265,6 @@ Los casos de prueba se implementaron en el archivo pruebas/test_analisis_financi
 
 Como resultado, se completó la etapa de análisis adicional con Python y Pandas, incorporando una herramienta complementaria para procesar y analizar los movimientos financieros del prototipo. Los resultados obtenidos permiten continuar con la integración de los componentes del proyecto y las siguientes actividades de desarrollo y validación.
 
-
-
 ### Actividad 13. Integración de los componentes del sistema
 
 **Estado:** ✅ Terminada
@@ -314,3 +312,47 @@ Durante las pruebas se identificó una limitación relacionada con la portabilid
 Las ocho pruebas funcionales se completaron satisfactoriamente. Los procedimientos, resultados y conclusiones se documentaron en el archivo pruebas/pruebas-funcionales-sistema.md, mientras que las capturas correspondientes se almacenaron en documentacion/evidencias/.
 
 Como resultado, se completó la etapa de pruebas funcionales del prototipo, comprobando el funcionamiento de las operaciones evaluadas y la consistencia de los datos entre los diferentes componentes. Los resultados obtenidos permiten continuar con las siguientes actividades de revisión, documentación y mejora del Sistema de Finanzas Personales.
+
+---
+
+### Actividad 15. Elaborar manual y recopilar evidencias
+
+**Estado:** ✅ Terminada
+**Periodo:** 15 al 21 de noviembre de 2026
+**Responsable:** Ana Laura
+
+Se elaboró la documentación técnica y el manual de usuario del Sistema de Finanzas Personales, integrando la descripción general del proyecto, los requisitos, la arquitectura, las herramientas utilizadas, los procedimientos de uso y los resultados obtenidos durante el desarrollo.
+
+También se recopilaron y organizaron las evidencias correspondientes a los módulos de Excel, las transformaciones realizadas en Power Query, el procesamiento de datos con Python y las visualizaciones desarrolladas en Power BI. Se incorporaron capturas de pantalla, diagramas y resultados de las pruebas para respaldar las actividades realizadas.
+
+La documentación se organizó en un documento final que incluye el manual de usuario, las conclusiones, las referencias bibliográficas y los anexos del proyecto.
+
+---
+
+### Actividad 16. Corregir errores encontrados durante las pruebas
+
+**Estado:** ✅ Terminada
+**Periodo:** 19 al 21 de noviembre de 2026
+**Responsables:** Ana Laura y Edson
+
+Se revisaron los resultados de las pruebas funcionales realizadas en el Sistema de Finanzas Personales para identificar posibles errores en los cálculos, la actualización de registros y el procesamiento de información.
+
+Se verificó el comportamiento de los presupuestos y las obligaciones en Excel, así como los procedimientos de limpieza, eliminación de duplicados y actualización de datos en Power Query. También se revisó la consistencia de la información utilizada por los componentes del proyecto.
+
+Los casos de prueba documentados presentaron resultados satisfactorios, por lo que no se identificaron errores pendientes dentro de las funciones evaluadas. Se conservaron las evidencias de las pruebas y se restablecieron los datos utilizados durante las verificaciones.
+
+---
+
+### Actividad 17. Realizar revisión final, respaldo y preparación de la entrega
+
+**Estado:** ✅ Terminada
+**Periodo:** 22 al 23 de noviembre de 2026
+**Responsables:** Ana Laura y Edson
+
+Se realizó una revisión general del Sistema de Finanzas Personales para comprobar que los componentes desarrollados y la documentación correspondiente estuvieran organizados de acuerdo con los objetivos establecidos al inicio del proyecto.
+
+Se verificó la disponibilidad de los archivos de Excel, los scripts de Python, los recursos de Power Query y Power BI, así como la documentación técnica y el manual de usuario. También se revisaron los enlaces a los documentos complementarios, incluyendo el DRS, el plan de construcción y el diagrama de Gantt.
+
+Los archivos del proyecto se actualizaron en el repositorio de GitHub, permitiendo mantener un respaldo del trabajo realizado y facilitar el acceso de ambos integrantes del equipo desde sus respectivas computadoras.
+
+Con esta actividad se concluyó la planificación establecida para el desarrollo del Sistema de Finanzas Personales, quedando organizados los archivos y documentos necesarios para su entrega final.
